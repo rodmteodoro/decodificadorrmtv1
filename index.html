@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador RMT v1</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column-left">
+                
+                <input type="text" id="TxtEntrada" placeholder="Digite aqui...">
+            </div>
+            <div class="column">
+                
+                <div class="output-area">
+                    <img id="imgAlerta" src="./img/imgAlerta.png" alt="Alerta">
+                    <label for="TxtSaida" style="display:none;">Texto Criptografado:</label>
+                    <input type="text" id="TxtSaida" readonly value="Nenhuma mensagem" style="display:none;">
+                </div>
+                
+            </div>
+        </div>
+        <div class="button-row">
+            <button id="BtCriptografar">Codificar</button>
+            <button id="BtCopiar" style="display:none;">Copiar</button>
+            <button id="BtDescriptografar" style="display:none;">Decodificar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+
+
